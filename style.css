@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #69F3CF;
+  text-align:center;
+}
+article {
+  width: 75%;
+  min-height: 400px;
+  font-size: 18px;
+  float: right;
+  margin: 20px;
+}
+aside {
+  width: 18%;
+  min-height: 400px;
+  font-size: 18px;
+  display: online-block;
+  float: left;
+  margin: 20px;
+}
+section {
+  min-width: 900px;
+  min-height: 850px;
+}
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #85929E;
+  font-size: 18px;
+  text-align:center;
+}
+li {
+  font-size: 28px;
+  font-style: bold;
+}
+.box {
+  background-color: #5DADE2;
+  width: 200px;
+  height: 200px;
+  border: 0.3rem solid black;
+  flex-wrap: wrap;
+}
